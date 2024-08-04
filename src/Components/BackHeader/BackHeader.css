@@ -1,0 +1,11 @@
+.back-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6vh 4vw 1vh 4vw;
+}
+
+.back-title-container h1 {
+  padding-right: 40%;
+  padding-bottom: 0rem;
+}

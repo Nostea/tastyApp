@@ -1,0 +1,27 @@
+.areas-section {
+  padding-bottom: 2vh;
+  overflow-x: hidden;
+}
+
+.areas-title-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.areas-title-flex h2 {
+  margin-left: 5vw;
+}
+
+.areas-filter-buttons {
+  white-space: nowrap;
+  overflow-x: auto;
+  display: flex;
+  gap: 2vw;
+  padding: 1vh 3.5vw;
+}
+
+.areas-filter-buttons::-webkit-scrollbar {
+  display: none;
+}

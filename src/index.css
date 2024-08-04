@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../public/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, "Inter Variable", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+:root {
+  --fontsize-regular: 1rem;
+  --title: #042628;
+  --text: rgb(167, 167, 167);
+  --btn: #042628;
+  --btn-text: #ffffff;
+  --bg: #70b9be;
+  --gray: #f1f5f5;
+  --instructions-gray: #48525f;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 1.75rem;
+  padding-bottom: 2vh;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5vh;
+}
+
+h3 {
+  font-size: 1.3rem;
+  padding-bottom: 0.5vh;
+}
+
+p {
+  font-size: var(--fontsize-regular);
+  line-height: 145%;
+}
+
+.p-title {
+  font-weight: 500;
+}
+
+.p-subtitle {
+  font-weight: 300;
+}
+
+.p-subtitle,
+.p-title {
+  color: #748189;
+  line-height: 145%;
+}
+
+.button-tags {
+  font-size: var(--fontsize-regular);
+  font-weight: 300;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--gray);
+  padding: 0.6rem 1rem;
+}
+
+.button-tags:active {
+  color: var(--btn-text);
+  background-color: var(--bg);
+}
+
+.button-tags:hover {
+  color: var(--btn-text);
+  background-color: var(--bg);
+}

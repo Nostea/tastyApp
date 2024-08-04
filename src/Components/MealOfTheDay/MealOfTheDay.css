@@ -1,0 +1,52 @@
+.motd-section {
+  padding-bottom: 2vh;
+}
+
+.motd-section h2 {
+  margin-left: 5vw;
+  margin-top: 1vh;
+}
+
+.motd-card {
+  background-image: url(../../../public/MealOfTheDay.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  border-radius: 1rem;
+  margin-left: 5vw;
+  margin-top: 1vh;
+}
+
+.motd-card h2 {
+  color: white;
+  padding-top: 12vh;
+}
+
+.motd-tag {
+  width: 2rem;
+  height: 2rem;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.motd-tag-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.motd-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.motd-card p {
+  color: white;
+}

@@ -1,0 +1,56 @@
+.landing-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  background-color: var(--bg);
+  background-image: url(../../../public/bg2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -10vh;
+}
+
+.landing-food {
+  margin-top: 10vh;
+}
+
+.landing-box {
+  position: absolute;
+  background-color: white;
+  margin-top: 5vh;
+  border-radius: 5vw 5vw 0vw 0vw;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 35vh;
+}
+
+.landing-title {
+  margin-top: 6vh;
+  font-weight: 700;
+}
+
+.landing-text {
+  width: 60vw;
+  margin: auto;
+  margin-top: 3vh;
+  color: var(--text);
+}
+
+.landing-btn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  width: 70vw;
+  height: 6vh;
+  margin-top: 5vh;
+  border-radius: 1rem;
+  background-color: var(--btn);
+  color: white;
+}
+
+.landing-btn a {
+  color: white;
+}

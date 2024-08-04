@@ -1,0 +1,115 @@
+.buttonCluster {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(212, 212, 212);
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+
+.detail-btn {
+  font-size: var(--fontsize-regular);
+  border: none;
+  background-color: none;
+  background: none;
+  padding: 1rem 0rem;
+  margin: 1vw;
+  border-radius: 1rem;
+  color: var(--btn);
+  width: 50%;
+}
+
+.detail-btn.active {
+  color: var(--btn-text);
+  background-color: var(--btn);
+  border: none;
+  background-color: none;
+  width: 50%;
+}
+
+/* 
+
+*/
+
+.detailsFoodContainer {
+  border-radius: 1.6rem;
+  position: relative;
+  top: -4vh;
+  padding: 3.5vh 4vw 1vh 4vw;
+  background-color: gray;
+  background-color: var(--btn-text);
+}
+
+.instructions {
+  border-radius: 1rem;
+  background-color: none;
+  padding: 1rem;
+  white-space: pre-wrap;
+  box-shadow: 0px 7px 12px 5px rgba(0, 0, 0, 0.05);
+}
+
+.ingredients {
+  padding-bottom: 2vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.instructions p {
+  color: #48525f;
+}
+
+.buttonCluster {
+  background-color: var(--gray);
+  padding: 0.4rem 0.4rem;
+  border-radius: 1rem;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.button-switch {
+  color: var(--btn);
+  background-color: var(--gray);
+  border: none;
+  font-size: var(--fontsize-regular);
+  width: 50%;
+  font-weight: 600;
+  padding: 1rem 0rem;
+  border-radius: 2rem;
+}
+
+.button-switch-active {
+  color: var(--btn-text);
+  background-color: var(--btn);
+  border: none;
+  font-size: var(--fontsize-regular);
+  width: 50%;
+  font-weight: 600;
+  padding: 1rem 0rem;
+  border-radius: 1rem;
+}
+
+.button-vid {
+  background-color: #70b9be;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1rem;
+  margin-top: 1.6vh;
+  margin-bottom: -3vh;
+  border-radius: 1rem;
+  border: none;
+  width: 92vw;
+}
+
+.ingredients p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  display: inline;
+  padding: 0.8rem;
+  border-radius: 1.2rem;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+}

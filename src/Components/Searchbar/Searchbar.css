@@ -1,0 +1,49 @@
+.searchbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.searchbar-box {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  width: 90%;
+  border: 2px solid #e6ebf2;
+  cursor: pointer;
+  position: relative;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+.searchbar-box input {
+  border: none;
+  outline: none;
+  width: 90%;
+  margin-left: 2vw;
+  font-size: var(--fontsize-regular);
+}
+
+.searchbar-box input::placeholder {
+  text-align: left;
+  padding-left: 2vw;
+}
+
+.suggestions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2vw;
+  margin-top: 0.5vw;
+  width: 100%;
+  border-radius: 1rem;
+  padding-left: 2vw;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+}
+.suggestions a {
+  color: black;
+  padding: 0.2vw 0;
+}

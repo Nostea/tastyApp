@@ -1,0 +1,8 @@
+.ingredient-tag {
+  font-size: 1.125rem;
+  font-weight: 500;
+  display: inline;
+  padding: 0.8rem;
+  border-radius: 1.2rem;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+}
