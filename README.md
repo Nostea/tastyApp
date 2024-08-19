@@ -1,6 +1,7 @@
 # tastyApp
 
-try it out live: https://tasty-steel.vercel.app/ 
+try it out live: 
+https://greenmarket.tobias-tischer.de/
 
 ## Goals
 - recipe app
