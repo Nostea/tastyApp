@@ -1,7 +1,7 @@
 # tastyApp
 
 try it out live: 
-https://greenmarket.tobias-tischer.de/
+https://tasty-steel.vercel.app/
 
 ## Goals
 - recipe app
@@ -16,7 +16,7 @@ https://greenmarket.tobias-tischer.de/
 
 ### collaborators
 - https://github.com/MorphDE - Tobias Tischer
-- https://github.com/EvenSalomon1 - Even Salomon
+- https://github.com/StefanHolz1997 - Stefan Holz
 - https://github.com/AdrSpeer - Adrian Speer
 - https://github.com/Nostea?tab=repositories - Anna Gofman
 
